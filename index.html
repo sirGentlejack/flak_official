@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flak_official</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h2 id="logo">FLAK</h2>
+        
+        <a href="#">About us</a>
+        <a href="#">Offers</a>
+        <a href="#">Feedback</a>
+        <a href="#">Say HI</a>
+        
+    </div>
+    <br>
+    <br>
+    
+    <div id="section_1">
+        <div id="part1">
+            <h1>Flak skill training academy, A place for you to become a better you. <br><span id="bempowered"> Be empowered.</span></h1>
+           <img src="images/hand.jpg" alt="Hand holding a blazing apple">
+           <p>Here you can learn skills like,<br> Tailoring, <br>Plumbing,<br>
+             hair dressing, <br> Make-up, <br>and many more...</p>
+        </div>
+        <form action="#" autocomplete="on">
+            <fieldset>
+                <legend>REGISTER_NOW!</legend>
+                <label for="full-name">FULL-NAME:-</label><br>
+                <input type="text" id="full-name" placeholder="John James" required><br>
+                <label for="dob">DATE-OF-BIRTH:-</label><br>
+                <input type="date" id="dob" placeholder="dd/mm/yyyy" required><br>
+                <label for="e-mail">E-MAIL:-</label><br>
+                <input type="email" id="e-mail" placeholder="abc54@zazu.com" required><br>
+                <label for="sex">SEX:-</label><br>
+                <select name="sex" id="sex">
+                <option value="-">----</option>
+                <option value="male">MALE</option>
+                <option value="female">FEMALE</option>
+                </select><br>
+                <label for="address">ADDRESS:-</label><br>
+                <textarea name="ADDRESS" id="address" cols="30" rows="5"></textarea><br>
+                <label for="phone">PHONE:-</label><br>
+                <input type="tel" name="PHONE" id="phone" placeholder="+234xxxxxxxxxx" required><br>
+                <label for="photo">PHOTO:-</label><br>
+                <input type="file" name="PHOTO" id="photo"><br>
+                <label for="password">PASSWORD:-</label><br>
+                <input type="password" name="password" id="password" placeholder="******" required><br>
+                <input type="submit" id="submit-btn" value="SUBMIT" onclick="myFunction()">
+            </fieldset>
+        </form>
+    </div>
+    <hr>
+    <div>
+        <footer id="foot">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Dolorum, consequuntur.</p>
+            </div>
+            <div>
+                <p>Lorem<br> ipsum dolor sit amet consectetur<br> adipisicing elit. Dolorum, consequuntur.</p>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit<br> amet consectetur <br>adipisicing elit. Dolorum, <br>consequuntur.</p>
+            </div>
+        </footer>
+        <p>&copy; gentlejackB </p>
+    </div>
+    <script type="application/javascript">
+        function myFunction() {
+            alert("Registration Successful")
+        }
+       
+        window.alert("Welcome to FLak Skill Academy");
+
+        console.log("THIS IS FLAK ACADEMY OFFICIAL WEBSITE");
+
+        var data = ['tom','victor','david','john','philip'];
+
+        console.log(data);
+
+        var sentence = 'david went to command day sec. school';
+
+        console.log(sentence);
+
+        for(let i = 0; i < data.length; i++  ){
+            console.log(data[i]);
+        }
+
+        for(let i = 0; i < 20; i++  ){
+            console.log(sentence) ;
+        }
+
+        const person = {
+            'name' : 'james',
+            'age' : 16,
+            'height' : '3 feet'
+        }
+
+        console.log(person ['name'])
+        console.log(person ['age'])
+        console.log(person ['height'])
+
+        var age = 18;
+        if((age > 30) && (age < 60)){
+            console.log("you can drink");
+        }else if(age > 50){
+            console.log("advised not to drink and drive");
+        }else if(age >= 18){
+            console.log("drink responsibly");
+        }else{
+            console.log("don't drink beer");
+        }
+    </script>
+</body>
+</html>
