@@ -5,56 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flak_official</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="asset/style.css">
 </head>
 <body>
     <div id="main">
         <h2 id="logo">FLAK</h2>
         
-        <a href="#">About us</a>
-        <a href="#">Offers</a>
+        <a href="index.html" class="active">Home</a>
+        <a href="asset/aboutus.html">About us</a>
         <a href="#">Feedback</a>
-        <a href="#">Say HI</a>
+        <a href="asset/enroll.html">Enroll now</a>
         
     </div>
+    <br>
     <br>
     <br>
     <br>
     <br>
     <div id="section_1">
         <div id="part1">
-            <h1>Flak skill training academy, A place for you to become a better you. <br><span id="bempowered"> Be empowered.</span></h1>
+            <h1>Flak skill academy, A place for you to become a better you. <br><span id="bempowered"> Be empowered.</span></h1>
            <img src="images/hand.jpg" alt="Hand holding a blazing apple">
-           <p>Here you can learn skills like,<br> Tailoring, <br>Plumbing,<br>
-             hair dressing, <br> Make-up, <br>and many more...</p>
+           <p>Here you can learn skills like:-<br> Event planning, <br> Fashion designing, <br>Plumbing,<br> Cobbling/ Bag & shoe<br>
+             Hair styling, <br> Make-up, <br>Baking, <br> and many more...</p>
         </div>
-        <form action="#" autocomplete="on">
-            <fieldset>
-                <legend>REGISTER_NOW!</legend>
-                <label for="full-name">FULL-NAME:-</label><br>
-                <input type="text" id="full-name" placeholder="John James" required><br>
-                <label for="dob">DATE-OF-BIRTH:-</label><br>
-                <input type="date" id="dob" placeholder="dd/mm/yyyy" required><br>
-                <label for="e-mail">E-MAIL:-</label><br>
-                <input type="email" id="e-mail" placeholder="abc54@zazu.com" required><br>
-                <label for="sex">SEX:-</label><br>
-                <select name="sex" id="sex">
-                <option value="-">----</option>
-                <option value="male">MALE</option>
-                <option value="female">FEMALE</option>
-                </select><br>
-                <label for="address">ADDRESS:-</label><br>
-                <textarea name="ADDRESS" id="address" cols="30" rows="5"></textarea><br>
-                <label for="phone">PHONE:-</label><br>
-                <input type="tel" name="PHONE" id="phone" placeholder="+234xxxxxxxxxx" required><br>
-                <label for="photo">PHOTO:-</label><br>
-                <input type="file" name="PHOTO" id="photo"><br>
-                <label for="password">PASSWORD:-</label><br>
-                <input type="password" name="password" id="password" placeholder="******" required><br>
-                <input type="submit" id="submit-btn" value="SUBMIT" onclick="myFunction()">
-            </fieldset>
-        </form>
+        <div  class="part2">
+            <p>The vision of the academy is to ensure a poverty <br>
+                free nigeria by moving Nigerians from poverty to plenty.<br><br>
+                The academy intend to achieve its mission by providing food banks,<br>
+                scholarship, skill acquisition, ethics and  value reorientation <br>
+                programs and volunteering programs for the youths and less privileged<br>
+                people in nigeria. <span style="border: none; background-color: black;" > <a href="asset/aboutus.html">Read more..</a></span>
+            </p>
+            <br>
+            <div>
+            <img src="images/tailoring.jpg" id="skillimg" alt="tailoring image" >
+            <label for="skillimg">Tailoring</label>
+            
+            <img src="images/bag making.jpg" id="skillimg" alt="bag making image" >
+            <label for="skillimg">Bag/Shoe</label>
+            <br></div>
+            <img src="images/baking.jpeg" id="skillimg" alt="baking image" >
+            <label for="skillimg">Baking</label>
+            <img src="images/computer.jpg" id="skillimg" alt="tailoring image" >
+            <label for="skillimg">Computer</label>
+            <br><br>
+
+            <a href="asset/enroll.html"><input type="button" value="Enroll now!" id="enrollbtn"></a>
+        </div>
     </div>
+    
     <hr>
     <div>
         <footer id="foot">
@@ -62,18 +62,19 @@
                 <p>In flak academy you have alot to learn<br> adipisicing elit. Dolorum, consequuntur.</p>
             </div>
             <div>
-                <p>Hand work<br> ipsum dolor sit amet consectetur<br> adipisicing elit. Dolorum, consequuntur.</p>
+                <p>Hand work<br> ipsum dolor sit amet consectetur<br> adipisicing elit. Dolorum, consequuntur.</p><br><br><br>
+                <p><a href="#">back to top</a></p>
             </div>
             <div>
                 <p>Learn a skill today!!<br> amet consectetur <br>adipisicing elit. Dolorum, <br>consequuntur.</p>
             </div>
         </footer>
-        <p>&copy; gentlejackB </p>
+        <div id="copy">
+            <p >&copy; <a href="https://github.com/sirGentlejack" target="_blank">gentlejackB </a>2023 </p> <br>
+        </div>
     </div>
     <script type="application/javascript">
-        function myFunction() {
-            alert("Registration Successful")
-        }
+        
        
         window.alert("Welcome to FLak Skill Academy");
 

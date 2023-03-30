@@ -34,6 +34,14 @@ div a{
     color: gold;
 }
 
+.active{
+    background-color: gold;
+    color: black;
+    padding: 5px;
+
+}
+
+
 #part1{
     padding-top: 30px;
 }
@@ -67,20 +75,55 @@ div #part1 p{
     font-size: larger;
 }
 
+h4{
+    text-decoration: underline;
+}
+
+.part2{
+    padding: 50px;
+}
+
+#skillimg{
+    width: 10vw;
+    height: 25vh;
+    margin-top: 30px;
+    
+}
+
+label{
+    text-align: center;
+}
+
+#enrollbtn{
+    border: none;
+    border-bottom: 2px double gold;
+    padding: 20px 10px;
+    background-color: black;
+    color: gold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
 #section_1{
     display: flex;
     justify-content: space-around;
     margin: 30px;
 }
 
+#enrollpage_main{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
 fieldset{
     width: 30rem;
-    height: 60rem;
+    height: 75rem;
     text-align: center;
     font-size: large;
     line-height: 3rem;
     margin: 10px;
-    border-radius: 30%;
+    border-radius: 18%;
 }
 
 input{
@@ -147,6 +190,7 @@ input{
     width: 8vw;
     height: 4vh;
     font-size: large;
+    background-color: whitesmoke;
 }
 
 #foot{
@@ -156,15 +200,20 @@ input{
     font-weight: 100;
 }
 
-@media (max-width:950px) {
+#copy{
+    margin-left: 100px;
+}
+
+@media screen and (max-width:950px) {
     *{
         text-align: center;
     }
 
     #main{
         font-size: smaller;      
-        width: 115%;
-        position: absolute;
+        width: 100%;
+        position: fixed;
+        top: 0;
     }
     #logo{
         font-size: 5vw;
@@ -200,6 +249,18 @@ input{
     #section_1{
         display: block;
         width: 100%;
+    }
+
+    #skillimg{
+        width: 30vw;
+        height: 35vh;
+        margin-top: 30px;
+        
+    }
+
+    #enrollpage_main{
+        display: block;
+        padding: 100px;
     }
 
     fieldset{
@@ -292,8 +353,20 @@ input{
         width: 100%;
     }
 
+    #skillimg{
+        width: 70vw;
+        height: 45vh;
+        margin-top: 30px;
+        
+    }
+
+    #imgx{
+        display: none;
+    }
+
     fieldset{
         width: 100%;
+        border-radius: 20px;
     }
     
     #full-name{
@@ -351,5 +424,13 @@ input{
 
     img{
         display: none;
+    }
+
+    #skillimg{
+        display: block;
+        width: 80vw;
+        height: 35vh;
+        margin-top: 30px;
+        
     }
 }
