@@ -84,9 +84,9 @@ h4{
 }
 
 #skillimg{
-    width: 10vw;
-    height: 25vh;
-    margin-top: 30px;
+    width: 20vw;
+    height: 40vh;
+    margin-top: 50px;
     
 }
 
@@ -113,12 +113,12 @@ label{
 #enrollpage_main{
     display: flex;
     justify-content: space-around;
-    padding: 100px;
+    padding: 50px;
 }
 
 fieldset{
     width: 30rem;
-    height: 75rem;
+    height: 78rem;
     text-align: center;
     font-size: large;
     line-height: 3rem;
@@ -136,6 +136,8 @@ input{
     width: 20vw;
     height: 7vh;
     font-size: large;
+    color: black;
+    background-color: whitesmoke;
 }
 
 #dob{
@@ -144,6 +146,8 @@ input{
     width: 10vw;
     height: 5vh;
     font-size: large;
+    color: black;
+    background-color: whitesmoke;
 }
 
 #e-mail{
@@ -152,6 +156,8 @@ input{
     width: 20vw;
     height: 7vh;
     font-size: large;
+    color: black;
+    background-color: whitesmoke;
 }
 
 #sex{
@@ -160,12 +166,16 @@ input{
     width: 7vw;
     height: 5vh;
     text-align: center;
+    color: black;
+    background-color: whitesmoke;
 }
 
 #address{
     font-size: large;
     border: none;
     border-radius: 10%;
+    color: black;
+    background-color: whitesmoke;
 }
 
 #phone{
@@ -174,6 +184,17 @@ input{
     width: 20vw;
     height: 7vh;
     font-size: large;
+    color: black;
+    background-color: whitesmoke;
+}
+#photo{
+    color: black;
+    background-color: whitesmoke;
+}
+
+#courses{
+    color: black;
+    background-color: whitesmoke;
 }
 
 #password{
@@ -182,6 +203,8 @@ input{
     width: 20vw;
     height: 7vh;
     font-size: xx-large;
+    color: black;
+    background-color: whitesmoke;
 }
 
 #submit-btn{
@@ -190,6 +213,7 @@ input{
     width: 8vw;
     height: 4vh;
     font-size: large;
+    color: black;
     background-color: whitesmoke;
 }
 
@@ -220,7 +244,7 @@ input{
     }
     
     #part1{
-        padding-top: 30px;
+        padding-top: 20px;
         
     }
     
@@ -251,21 +275,29 @@ input{
         width: 100%;
     }
 
+    .part2{
+        padding-top: 20px;
+        border-top: 5px dashed gold;
+        margin: 20px;
+    }
+
     #skillimg{
-        width: 30vw;
+        width: 35vw;
         height: 35vh;
         margin-top: 30px;
-        
+        border-top: 5px dashed gold;
     }
 
     #enrollpage_main{
         display: block;
         padding: 100px;
+        padding-top: 50px;
     }
 
     fieldset{
         width: 100%;
-        padding-bottom: 50px;
+        height: 100vh;
+        padding-bottom: 10px;
     }
     
     #full-name{
@@ -310,6 +342,10 @@ input{
         width: 25vw;
     }
 
+    hr{
+        width: 110%;
+    }
+
     #foot{
         width: 100%;
     }
@@ -327,11 +363,11 @@ input{
     }
 }
 
-@media (max-width:400px) {  
+@media (max-width:498px) {  
     #main{
-        width: 130%;
+        width: 100%;
         padding: 10px;
-        position: absolute;
+        position: fixed;
     }
 
     #part1{
@@ -411,19 +447,28 @@ input{
         width: 20vw;
     }
 
+    hr{
+        width: 120%;
+    }
+
 }
 
 @media (max-width:310px) {
     #main{
-        width: 150%;
+        width: 100%;
+        position: fixed;
     }
 
     div #part1 h1{
-        height: 55vh;
+        height: 25vh;
     }
 
     img{
         display: none;
+    }
+
+    #part1 .part1_2{
+        border-top: 5px dashed gold;
     }
 
     #skillimg{
@@ -432,5 +477,9 @@ input{
         height: 35vh;
         margin-top: 30px;
         
+    }
+
+    hr{
+        width: 130%;
     }
 }
