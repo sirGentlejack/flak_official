@@ -273,6 +273,7 @@ input{
     #section_1{
         display: block;
         width: 100%;
+        padding-top: 30px;
     }
 
     .part2{
@@ -291,12 +292,12 @@ input{
     #enrollpage_main{
         display: block;
         padding: 100px;
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     fieldset{
         width: 100%;
-        height: 100vh;
+        height: 115vh;
         padding-bottom: 10px;
     }
     
@@ -403,6 +404,7 @@ input{
     fieldset{
         width: 100%;
         border-radius: 20px;
+        height: 115vh;
     }
     
     #full-name{
